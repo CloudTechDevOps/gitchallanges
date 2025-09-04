@@ -3,7 +3,7 @@ resource "aws_instance" "name" {
     instance_type = "t2.nano"
     availability_zone = "us-east-1a"
     tags = {
-        Name = "dev"
+        Name = "test"
     }
 
     lifecycle {
